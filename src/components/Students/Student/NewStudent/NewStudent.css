@@ -1,0 +1,42 @@
+.new-student {
+    width: 80%;
+    margin: 20px auto ;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+}
+
+.new-student label {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.new-student input {
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    direction: rtl;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+input[type=tel],input[type=email],input[type=number] {
+    direction: ltr;
+}
+
+.add-btn {
+    background-color: #28a745;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+}
